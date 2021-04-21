@@ -1,6 +1,6 @@
 <?php
 
-    $con = mysqli_connect("0.tcp.ngrok.io:10601", "root", "Lucky1991","imperiumrex_data") ;
+    $con = mysqli_connect("localhost", "imperiumrex_data", "j~lUEL#Z,Itc","imperiumrex_data") ;
 
     if ($con->connect_error) {
         die("Connection failed: " . $con->connect_error);
